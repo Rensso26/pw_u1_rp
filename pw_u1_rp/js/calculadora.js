@@ -95,9 +95,9 @@ const fundamentos = () => {
     /** Manejo de objetos */
 
     const miProfesor = {
-        nombre: 'Emil',
-        apellido: 'Verkade',
-        edad: 23,
+        nombre: 'Rensso',
+        apellido: 'Parra',
+        edad: 24,
         genero: 'Masculino',
         ciudad: 'UIO'
     }
@@ -108,7 +108,7 @@ const fundamentos = () => {
 
     if (miProfesor.ciudad === 'UIO') console.log('capitalino');
 
-    const estudiante1 = { nombre: 'Emil', apellido: 'Verkade' };
+    const estudiante1 = { nombre: 'Rensso', apellido: 'Parra' };
     const estudiante2 = { nombre: 'Joel', apellido: 'Verkade' };
     const estudiante3 = { nombre: 'Kevin', apellido: 'Verkade' };
     const arreglo1 = [estudiante1, estudiante2, estudiante3];
@@ -118,8 +118,8 @@ const fundamentos = () => {
 
 
     const ciudadano = {
-        nombre: 'Emil',
-        apellido: 'Verkade',
+        nombre: 'Rensso',
+        apellido: 'Parra',
         direccion: {
             callePrincipal: 'Av. mi casa',
             calleSecundaria: 'Calle 2',
@@ -140,7 +140,7 @@ const fundamentos = () => {
 
     const arregloEstudiantes = [estudiante1, estudiante2, estudiante3]
     console.log(arregloEstudiantes);
-    const arregloEstudiantes2 = [{ nombre: 'Emil', apellido: 'Verkade' },
+    const arregloEstudiantes2 = [{ nombre: 'Rensso', apellido: 'Parra' },
     { nombre: 'Juan', apellido: 'Montiel' }]
     console.log(arregloEstudiantes2);
     console.log(arregloEstudiantes2[1].apellido);
