@@ -9,97 +9,102 @@
 </head>
 
 <body><!-- Contenido visual de la pagina -->
-    
     <header>
         <h1>Universidad Central del Ecuador</h1>
-        <h3>Carrera de Computación</h3>
+        <h3>Carrera de Computacion</h3>
     </header>
-    <nav></nav>
+
+    <nav>
+        <ul>
+            <button>
+                <h1>1</h1>
+            </button>
+            <button>2</button>
+        </ul>
+    </nav>
+
     <section>
-        <!--cabeceras de secciones-->
+        <!-- Titulos -->
         <h1>Mi Primera Pagina WEB</h1>
-        <h6>Rensso Parra</h6>
-        
-        <!--Parrafos-->
-        <p>Este es el primer parrafo de mi pagina web ...............</p>
-        <span>Parrafos más cortos</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aspernatur necessitatibus nisi reprehenderit molestiae similique nesciunt blanditiis minima autem ex?</p>
-        <!--textos-->
+        <h4>Emil Verkade</h4>
+
+        <!-- Parrafos -->
+        <p>Este es el primer parrafo de mi pagina web</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod exercitationem est voluptate. Quidem
+            pariatur autem quam nulla exercitationem excepturi nostrum? Libero, neque quae! Provident, aut laborum fuga
+            sed quibusdam sint consequuntur quis quia, perspiciatis modi ea consectetur obcaecati pariatur porro
+            voluptas? Commodi aut non, atque porro exercitationem corporis provident!</p>
+
+        <!-- Parrafos cortos -->
+        <span>Parrafos cortos</span>
+        <br>
+        <!-- Textos -->
         <strong>Texto de importancia que quiero resaltar</strong>
         <br>
+        <b>Textos sin importancia</b>
         <br>
+        <em>Textos en cursiva, con importancia</em>
         <br>
+        <i>Textos en cursiva, sin importancia</i>
         <br>
-        <b>Textos que no quiero darle relevancia</b>
+        <u>Texto Subrayado</u>
         <br>
-        <em>Textos en cursiva con importancia</em>
+        <s>Texto eliminado</s>
         <br>
-        <i>Texto en cursiva sin importancia</i>
+        <mark style="background-color: blueviolet;">Texto resaltado</mark>
         <br>
-        <u>Texto subrayado</u>
-        <br>
-        <hr>
-        <br>
-        <s>Texto Eliminado</s>
-        <mark>Texto resaltado</mark>
-
-        <!---Listas-->
+        <!-- Lista -->
         <ul>
             <li>Ventas</li>
             <li>Compras</li>
             <li>Inventario</li>
         </ul>
-
         <ol>
             <li>Ventas</li>
             <li>Compras</li>
             <li>Inventario</li>
         </ol>
-        
-        <!--Tablas-->
-        <!--Se suele poner el border en el css-->
-        <table border="1">
+        <br>
+        <!-- Tablas -->
+        <table border=1>
             <thead>
-                <!--El tr siempre es primero y representa una fila-->
+                <!-- Siempre es primero el Row -->
                 <tr>
-                    <!--Como contenido de la fila declaro todas colmnas mediante el elemento th-->
-                    <th>#</th> 
-                    <th>Nombre</th> 
-                    <th>Apellido</th> 
-                    <th>CI</th> 
+                    <!-- Notese el th por ser header -->
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Cedula</th>
                     <th>Genero</th>
-                    <th>Acción</th>
+                    <th>Accion</th>
                 </tr>
-                <tbody>
-                    <!--Por cada fila es un elemento html TR-->
-                    <!--Para la fila un elemento tr y para la columna un td-->
-                    <tr>
-                        <td>1</td>
-                        <td>Rensso</td>
-                        <td>Parra</td>
-                        <td>1726583246</td>
-                        <td>Masculino</td>
-                        <td><button>Editar</button></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Emil</td>
-                        <td>Verkade</td>
-                        <td>17268863246</td>
-                        <td>Masculino</td>
-                        <td><button>Editar</button></td>
-                    </tr>                   
-                </tbody>
             </thead>
+            <tbody>
+                <tr>
+                    <!-- Notese el td por ser body -->
+                    <td>1</td>
+                    <td>Emil</td>
+                    <td>Verkade</td>
+                    <td>1717171717</td>
+                    <td>M</td>
+                    <td><Button>Editar</Button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rensso</td>
+                    <td>Parra</td>
+                    <td>175555555</td>
+                    <td>M</td>
+                    <td><Button>Editar</Button></td>
+                </tr>
+            </tbody>
         </table>
 
-        <!--Contenedores (elementos que agrupan contenido)-->
-        <!--Tienene como objetivo agrupar por si es necesario-->
-        <div></div>
-        <!-- Son contenedores/agrupadores header, nav, section,.............-->
+        <!-- Elementos que agrupan contenido -->
+        <div><br></div>
+        <!-- Agrupadores como Header, nav, section... -->
 
-        <!--Formularios, el elemento de facto para declarar un formaularjo para capturar-->
-
+        <!-- formularios -->
         <form action="">
             <label for="id_nombre">Nombre</label>
             <input type="text" id="id_nombre">
@@ -108,26 +113,29 @@
             <label for="id_fecha">Fecha Nacimiento</label>
             <input type="date" id="id_fecha">
             <label for="id_edad">Edad</label>
-            <input type+="number" id="id_edad">
-            <!--Se debe usar cada elemento para lo que fue contenido-->
+            <input type="number" id="id_edad">
             <button>Guardar</button>
         </form>
-
+        <br>
         <!-- Multimedia -->
-         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png" alt="No se puede visualizar" width="300" height="300">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
+            alt="no hubo, c cayo la wikipedia" , width="200" , height="200">
 
-         <video controls>
+        <video controls>
             <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-         </video>
+        </video>
 
-        <button>Aceptar</button>
+
+        <hr>
+        <button>>Aceptar</button>
+
     </section>
+
     <aside></aside>
+
     <footer>
-        <h3>Todos los Derechos Reservados</h3>
+        <h6>Av. Universitaria// Derechos Reservados</h6>
     </footer>
-
-
 
 </body>
 

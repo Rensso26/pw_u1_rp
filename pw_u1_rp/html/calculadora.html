@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora UCE</h1>
+    </header>
+    <section>
+        <label id="id_label_1" for="id_numero_1">Numero 1</label>
+        <input id="id_numero_1" type="number">
+        <label id="id_label_2" for="id_numero_2">Numero 2</label>
+        <input id="id_numero_2" type="text">
+
+        <!-- los atribulos que comienzan con "on" refieren a una accion -->
+        <button onclick="document.getElementById('id_label_1').style.background='blue' " >Cambiar Color</button>
+        <button onclick="document.getElementById('id_label_2').innerText='numero2'">Cambiar Texto</button>
+        <button onclick="document.getElementById('id_label_1').style.fontSize='40px'">Cambiar Size</button>
+        <button onclick="document.getElementById('id_label_3').innerText=document.getElementById('id_label_1').innerText + document.getElementById('id_label_2').innerText">Concatenar</button>
+        <label id="id_label_3" for=""></label>
+
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+/* 1. Universal */
+* {
+  color: blue;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+/* 2. Tipo de elemento HTML*/
+
+h4 {
+  background-color: red;
+  font-size: 40px;
+}
+h5 {
+  background-color: green;
+  font-size: 10px;
+}
+
+/* 3. Por Clase */
+.grupo1 {
+  background-color: yellow;
+  border: solid 3px black;
+}
+
+/* 4. Por identificador */
+#id_boton1 {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  /* border: solid 5px red; */
+}
+
+/* 5. Por atributo; combinado: button[id] */
+[id] {
+  font-size: 50px;
+  border: solid yellow 10px;
+  border-radius: 20px;
+}
+
+img[alt="texto1"]{
+  width: 40px;
+  height: 50px;
+}
+/* estilo a todas las imagenes */
+img[src*=".jpg"]{
+  width: 50px;
+  height: 50px;
+}
+
+/* 6. Por psuedo clase (eventos)*/
+i:hover{
+  color:darkblue;
+  font-size: 70px;
+
+}
+input:focus{
+  color: blueviolet;
+  background-color: red;
+}
+
+
