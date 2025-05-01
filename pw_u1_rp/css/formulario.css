@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    /*perimte manejar los elementos de mi contenedor para poderlos manejar de forma horizontal o vertical*/
+    justify-content: center;
+    /*Centra horizontalmente los elementos*/
+    align-items: center;
+    /*Centra verticalmente los elementos*/
+}
+
+body{
+    background: #59abe3;
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+    font-size: 18px;
+    color: #28252d;
+}
+
+input{
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid #c0c0e2;
+    background: none;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 3px solid #6161d2;
+}
+
+h2,
+header {
+    margin: 10px 2px;
+    width: 100px;
+    color: #3a314b;
+    border-bottom: 3px solid #47bac5;
+}
+header{
+    font-size: 39px;
+    width: 320px;
+}
+
+.formulario{
+    border-radius: 10px;
+    background: #d8e8e3;
+    padding: 30px 25px;
+    box-shadow: 10px 10px #397196;
+}
+
+button{
+    background: #a7cae1;
+    padding: 21px;
+    font-size: 16px;
+    color: #06558a;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.centra-boton{
+    display: flex;
+    justify-content: center;
+}
